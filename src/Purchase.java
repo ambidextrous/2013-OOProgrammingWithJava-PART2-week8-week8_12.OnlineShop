@@ -40,4 +40,45 @@ public class Purchase {
         // milk: 4
         return this.product + ": "+this.amount;
     }
+
+
+
+       
+//    // Experiment begins here
+//    @Override
+//    public boolean equals(Object object) {
+//        if (object == null) {
+//            return false;
+//        }
+//
+//        if (getClass() != object.getClass()) {
+//            return false;
+//        }
+//
+//        Purchase compared = (Purchase) object;
+//
+//        if (this.product == null || !this.product.equals(compared.getRegCode())) {
+//            return false;
+//        }        
+//        
+//        if (this.country == null || !this.country.equals(compared.getCountry())) {
+//            return false;
+//        }
+//
+//        return true;
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        if (this.regCode == null) {
+//            return 7;
+//        }
+//
+//        return this.country.hashCode() + this.regCode.hashCode();
+//    }     
+
+    public String getProduct() {
+        return product;
+    }
+    
 }
